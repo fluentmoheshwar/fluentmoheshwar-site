@@ -1,0 +1,51 @@
+body{
+  color: #ffffff;
+  background-color: #202020;
+}
+.navbar {
+  background-color: #29298b;
+}
+
+.nav-link {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 4rem;
+}
+
+header img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 200px;
+}
+
+.accordion-button {
+  cursor: pointer;
+  --bs-accordion-active-color: #ffffff;
+  --bs-accordion-active-bg: #29298b;
+  color: #ffffff;
+  background-color: #202020;
+  margin: 0;
+  border: 1px solid #202020;
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+
+}
+
+.accordion-body{
+  color: #ffffff;
+  background-color: #202020;
+}
+
+.li-none{list-style: none;}
+
+footer{
+  background-color: #29298b;
+  color: #FFFFFF;
+  padding: 5px;
+}
