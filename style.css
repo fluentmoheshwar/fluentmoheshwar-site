@@ -23,6 +23,7 @@ header img {
   max-height: 200px;
   border-radius: 200px;
 }
+header h1{font-family: 'Josefin Sans', sans-serif;}
 
 .accordion-button {
   cursor: pointer;
@@ -48,4 +49,8 @@ footer{
   background-color: #29298b;
   color: #FFFFFF;
   padding: 5px;
+}
+.material-symbols-outlined{
+  position: relative;
+  top: 3px;
 }
