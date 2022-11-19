@@ -6,6 +6,4 @@ currYear = new Date().getFullYear();
 age = currYear - 2011;
 document.getElementById("age").innerHTML = age;
 
-if (ServiceWorker in navigator) {
-  navigator.serviceWorker.register("service-worker.js");
-}
+navigator.serviceWorker.register("service-worker.js");
