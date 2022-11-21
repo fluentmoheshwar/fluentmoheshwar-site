@@ -1,5 +1,5 @@
 setInterval(() => {
-  document.querySelector(".clock").innerHTML = new Date().toLocaleTimeString();
+  document.querySelector(".clock").innerHTML = new Date().toLocaleTimeString("en-US");
 }, 1000);
 
 currYear = new Date().getFullYear();
