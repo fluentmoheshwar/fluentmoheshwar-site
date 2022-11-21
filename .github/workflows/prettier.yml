@@ -18,5 +18,5 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Install Node.js & Runs Prettier
-        run: winget install node.js && winget upgrade node.js && npm i -g prettier && npx prettier  -c .
+      - name: Run Prettier
+        run: npm i -g prettier && npx prettier  -c .
