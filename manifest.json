@@ -1,41 +1,41 @@
 {
-"name": "Moheshwar Amarnath Biswas",
-"short_name": "Moheshwar Amarnath Biswas",
-"start_url": "./index.html",
-"display": "standalone",
-"description": "Website of Moheshwar Amarnath Biswas",
-"lang": " The default language of your application",
-"dir": "auto",
-"theme_color": "#29298b",
-"background_color": "#202020",
-"orientation": "any",
-"icons": [
-  {
-    "src": "./favicon.png",
-    "sizes": "424x424",
-    "type": "image/png",
-    "purpose": "maskable"
-  },
-  {
-    "src": "./favicon192.png",
-    "sizes": "192x192",
-    "type": "image/png",
-    "purpose": "any"
-  }
-],
-"screenshots": [
-  {
-    "src": "./images/meta.png",
-    "sizes": "2880x1800",
-    "type": "image/png",
-    "description": "A screenshot of the home page"
-  }
-],
-"shortcuts": [
-  {
-    "name":"Home",
-    "url":"/",
-    "description":"The Home page"
-  }
-]
+  "name": "Moheshwar Amarnath Biswas",
+  "short_name": "Moheshwar Amarnath Biswas",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "description": "Website of Moheshwar Amarnath Biswas",
+  "lang": " The default language of your application",
+  "dir": "auto",
+  "theme_color": "#29298b",
+  "background_color": "#202020",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "sizes": "424x424",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./favicon192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./images/meta.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
+      "description": "A screenshot of the home page"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "url": "/",
+      "description": "The Home page"
+    }
+  ]
 }

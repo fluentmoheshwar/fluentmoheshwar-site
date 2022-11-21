@@ -1,0 +1,22 @@
+name: "Prettier"
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  schedule:
+    - cron: "23 19 * * 3"
+jobs:
+  analyze:
+    name: Analyze
+    runs-on: windows-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Install Node.js & Runs Prettier
+        run: winget install node.js && winget upgrade node.js && npm i -g prettier && npx prettier  -c .
