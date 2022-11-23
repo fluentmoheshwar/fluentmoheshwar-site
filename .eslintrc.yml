@@ -1,0 +1,18 @@
+env:
+  browser: true
+  es2021: true
+extends: airbnb-base
+overrides: []
+parserOptions:
+  ecmaVersion: latest
+  sourceType: module
+
+rules:
+  eqeqeq: 0
+  curly: error
+  quotes:
+    - error
+    - "double"
+  linebreak-style:
+    - error
+    - windows

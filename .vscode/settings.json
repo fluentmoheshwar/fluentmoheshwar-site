@@ -4,11 +4,17 @@
   "files.trimFinalNewlines": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "json.format.enable": true,
+  "javascript.format.enable": true,
   "editor.formatOnSave": true,
   "editor.quickSuggestions": {
     "strings": true,
     "comments": true,
     "other": "on"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": false
   },
   "editor.snippetSuggestions": "top",
   "editor.formatOnPaste": true,
@@ -20,7 +26,9 @@
     "Biswas",
     "Clipchamp",
     "Dipti",
+    "eqeqeq",
     "fluentmoheshwar",
+    "linebreak",
     "Moheshwar",
     "Photoshop",
     "Tapu"
