@@ -1,0 +1,31 @@
+{
+  "name": "fluentmoheshwar-site",
+  "version": "1.0.0",
+  "description": "Portfolio Website of myself",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node ./purify.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluentmoheshwar/fluentmoheshwar-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fluentmoheshwar/fluentmoheshwar-site/issues"
+  },
+  "homepage": "https://github.com/fluentmoheshwar/fluentmoheshwar-site#readme",
+  "devDependencies": {
+    "purify-css": "^1.2.5",
+    "vite": "^3.2.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2"
+  }
+}
