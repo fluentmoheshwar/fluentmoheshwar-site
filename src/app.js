@@ -1,5 +1,3 @@
-"use strict";
-
 /* eslint-disable */
 import * as bootstrap from "bootstrap";
 /* eslint-enable */
@@ -9,7 +7,7 @@ setInterval(() => {
     "en-US"
   );
 }, 1000);
-let currYear = new Date().getFullYear();
-let age = currYear - 2011;
+const currYear = new Date().getFullYear();
+const age = currYear - 2011;
 document.getElementById("age").innerHTML = age;
 navigator.serviceWorker.register("/service-worker.js");
