@@ -4,7 +4,7 @@ import * as bootstrap from "bootstrap";
 
 setInterval(() => {
   document.querySelector(".clock").innerHTML = new Date().toLocaleTimeString(
-    "en-US"
+    "en-US",
   );
 }, 1000);
 const currYear = new Date().getFullYear();

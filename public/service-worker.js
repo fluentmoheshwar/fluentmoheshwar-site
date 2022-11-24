@@ -32,7 +32,7 @@ const getFixedUrl = (req) => {
 
 /**
  *  @Lifecycle Activate
- *  New one activated when old isnt being used.
+ *  New one activated when old isn't being used.
  *
  *  waitUntil(): activating ====> activated
  */
