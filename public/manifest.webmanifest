@@ -4,17 +4,23 @@
   "start_url": "./index.html",
   "display": "standalone",
   "description": "Website of Moheshwar Amarnath Biswas",
-  "lang": " The default language of your application",
+  "lang": "en",
   "dir": "auto",
   "theme_color": "#29298b",
   "background_color": "#202020",
   "orientation": "any",
   "icons": [
     {
+      "src": "./favicon512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
       "src": "./favicon.png",
       "sizes": "424x424",
       "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any"
     },
     {
       "src": "./favicon192.png",
@@ -26,9 +32,8 @@
   "screenshots": [
     {
       "src": "./images/meta.png",
-      "sizes": "2880x1800",
-      "type": "image/png",
-      "description": "A screenshot of the home page"
+      "sizes": "1148x679",
+      "type": "image/png"
     }
   ],
   "shortcuts": [

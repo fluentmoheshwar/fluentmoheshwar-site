@@ -19,10 +19,9 @@ header {
 }
 
 header img {
-  max-width: 200px;
-  max-height: 200px;
   border-radius: 200px;
 }
+
 header h1 {
   font-family: "Josefin Sans", sans-serif;
 }
