@@ -12,6 +12,8 @@ Contributions are Welcome. Just send a pull request. [Visual Studio Code](https:
 
 ## Running locally
 
+Install Node.js if you don't have it. [Download Node.js](https://nodejs.org/)
+
 Install yarn if you don't have it:
 
 ```powershell
