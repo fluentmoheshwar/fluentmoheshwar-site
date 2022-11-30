@@ -11,14 +11,16 @@ jobs:
       actions: write
       contents: write
       security-events: write
-      workflows: write
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+
       - uses: actionsx/prettier@v2
         with:
           # prettier CLI arguments.
           args: --write .
+
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Prettified Code
