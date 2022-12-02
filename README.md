@@ -4,6 +4,7 @@ Portfolio Website of myself
 
 [![CodeQL](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/codeql.yml/badge.svg)](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/codeql.yml)
 [![Prettier](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/prettier.yml/badge.svg)](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/prettier.yml)
+[![DevSkim](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/devskim.yml/badge.svg)](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/devskim.yml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Contribution
