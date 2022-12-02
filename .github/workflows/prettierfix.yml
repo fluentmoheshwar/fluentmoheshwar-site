@@ -16,10 +16,12 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
+      - run: echo ".github" > ".prettierignore"
+
       - uses: actionsx/prettier@v2
         with:
           # prettier CLI arguments.
-          args: --write . "![.github]"
+          args: --write .
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
