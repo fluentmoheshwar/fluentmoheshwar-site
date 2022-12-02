@@ -3,17 +3,13 @@ name: "Prettier"
 on:
   push:
     branches: ["main"]
-  pull_request:
-    branches: ["main"]
-  schedule:
-    - cron: "20 2 * * 4"
 jobs:
   fix:
     name: Fix formatting issues
     runs-on: ubuntu-latest
     permissions:
       actions: read
-      contents: read
+      contents: write
       security-events: write
     steps:
       - uses: actions/checkout@v2
@@ -23,4 +19,8 @@ jobs:
       - uses: actionsx/prettier@v2
         with:
           # prettier CLI arguments.
-          args: --check .
+          args: --write . "![.github]"
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Prettified Code
