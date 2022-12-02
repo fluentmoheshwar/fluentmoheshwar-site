@@ -9,7 +9,7 @@ on:
     - cron: "20 2 * * 4"
 jobs:
   fix:
-    name: Fix formatting issues
+    name: Check formatting issues
     runs-on: ubuntu-latest
     permissions:
       actions: read
