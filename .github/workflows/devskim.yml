@@ -16,7 +16,7 @@ on:
 jobs:
   lint:
     name: DevSkim
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     permissions:
       actions: read
       contents: read
