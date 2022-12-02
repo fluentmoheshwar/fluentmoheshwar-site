@@ -3,6 +3,8 @@ name: "Prettier Fixer"
 on:
   push:
     branches: ["main"]
+  schedule:
+    - cron: "50 20 * * *"
 jobs:
   fix:
     name: Fix formatting issues
@@ -22,6 +24,8 @@ jobs:
         with:
           # prettier CLI arguments.
           args: --write .
+
+      - run: rm ".prettierignore"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
