@@ -82,12 +82,6 @@
       content="/images/meta.png"
     />
 
-    <!-- bootstrap -->
-    <link
-      rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-
     <!-- bootstrap-icons -->
     <link
       rel="stylesheet"
@@ -127,28 +121,26 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand">
-      <ul class="navbar-nav navbar-collapse">
-        <li class="nav-item">
+    <nav>
+      <ul>
+        <li>
           <a
-            class="nav-link active"
+            class="active"
             href="./index.html"
             aria-label="Home"
             ><i class="bi bi-house-door"></i
           ></a>
         </li>
-        <li class="nav-item">
+        <li>
           <a
-            class="nav-link"
             href="https://www.facebook.com/fluentmoheshwar"
             target="_blank"
             aria-label="Facebook"
             ><i class="bi bi-facebook"></i
           ></a>
         </li>
-        <li class="nav-item">
+        <li>
           <a
-            class="nav-link"
             href="https://instagram.com/fluentmoheshwar"
             aria-label="Instagram"
             target="_blank"
@@ -157,7 +149,6 @@
         </li>
         <li class="nav-item">
           <a
-            class="nav-link"
             href="https://twitter.com/fluentmoheshwar"
             target="_blank"
             aria-label="Twitter"
@@ -166,7 +157,6 @@
         </li>
         <li class="nav-item">
           <a
-            class="nav-link"
             href="https://github.com/fluentmoheshwar"
             target="_blank"
             aria-label="GitHub"
@@ -174,12 +164,11 @@
           ></a>
         </li>
       </ul>
-      <div class="clock float-end m-3"></div>
     </nav>
 
     <header>
       <h1>Moheshwar Amarnath Biswas</h1>
-      <h2 class="h4">Web Developer and Student | Bangladesh</h2>
+      <h2>Web Developer and Student | Bangladesh</h2>
       <img
         src="/images/photo.webp"
         alt="Photo of Moheshwar Amarnath Biswas"
@@ -188,20 +177,8 @@
       />
     </header>
 
-    <div class="accordion">
-      <div class="accordion-item">
-        <h2
-          class="accordion-button collapsed"
-          data-bs-target="#about"
-          data-bs-toggle="collapse"
-        >
-          About Me
-        </h2>
-        <div
-          id="about"
-          class="accordion-body accordion-collapse collapse"
-        >
-          <ul>
+    <section>
+      <ul>
             <li class="li-none">
               <i class="bi bi-person"></i> Name: Moheshwar Amarnath Biswas
             </li>
@@ -238,22 +215,10 @@
               spreadsheet, Driving, Cooking
             </li>
           </ul>
-        </div>
-      </div>
+    </section>
 
-      <div class="accordion-item">
-        <h2
-          class="accordion-button collapsed"
-          data-bs-target="#skills"
-          data-bs-toggle="collapse"
-        >
-          Skills
-        </h2>
-        <div
-          id="skills"
-          class="accordion-body accordion-collapse collapse"
-        >
-          <h5>Hard Skills:</h5>
+    <section>
+      <h5>Hard Skills:</h5>
           <ul>
             <li>Typing (Intermediate)</li>
             <li>Web Development (Intermediate)</li>
@@ -398,63 +363,7 @@
           </ul>
         </div>
       </div>
-
-      <div class="accordion-item">
-        <h2
-          class="accordion-button collapsed"
-          data-bs-target="#projects"
-          data-bs-toggle="collapse"
-        >
-          Projects
-        </h2>
-        <div
-          id="projects"
-          class="accordion-body accordion-collapse collapse"
-        >
-          <ul>
-            <li>
-              <a
-                href="https://github.com/fluentmoheshwar/fluentmoheshwar-site"
-                target="_blank"
-                >Moheshwar Amarnath Biswas's Website</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/fluentmoheshwar/yt-download-py"
-                target="_blank"
-                >YouTube Video Downloader</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/fluentmoheshwar/useful-tools"
-                target="_blank"
-                >Useful Tools For Windows</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="accordion-item">
-        <h2
-          class="accordion-button collapsed"
-          data-bs-target="#edq"
-          data-bs-toggle="collapse"
-        >
-          Education Qualifications
-        </h2>
-        <div
-          id="edq"
-          class="accordion-body accordion-collapse collapse"
-        >
-          <ul>
-            <li>None</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    </section>
 
     <footer>
       Copyright (c) Moheshwar Amarnath Biswas. All rights reserved.
