@@ -31,5 +31,8 @@
     "Photoshop",
     "Tapu"
   ],
-  "files.eol": "\r\n"
+  "files.eol": "\n",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
 }
