@@ -5,7 +5,7 @@ export default defineConfig({
   server: { port: 3000 },
   plugins: [
     VitePWA({
-      injectRegister: "script",
+      injectRegister: "auto",
       includeAssets: ["/favicon.ico", "/favicon.png"],
       manifest: {
         name: "Moheshwar Amarnath Biswas",
