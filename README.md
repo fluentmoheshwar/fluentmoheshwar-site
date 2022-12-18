@@ -9,46 +9,42 @@ Portfolio Website of myself
 
 ## Contribution
 
-Contributions are Welcome. Just send a pull request. [Visual Studio Code](https://code.visualstudio.com) is recommended code editor.
+Contributions are Welcome. Just send a pull request. [Visual Studio Code](https://code.visualstudio.com) is the recommended code editor.
 
 ## Running locally
 
 Install Node.js if you don't have it. [Download Node.js](https://nodejs.org/)
 
-Install yarn if you don't have it:
+Install pnpm if you don't have it:
+
+Windows:
 
 ```powershell
-npm i -g yarn
+iwr https://get.pnpm.io/install.ps1 -useb | iex
+```
+
+Linux/Mac:
+
+```bash
+curl -fsSL https://get.pnpm.io/install.sh | sh -
 ```
 
 Install dependencies:
 
 ```powershell
-yarn
+pnpm i
 ```
 
 Run:
 
 ```powershell
-yarn dev
+pnpm dev
 ```
 
 ## Building
 
-Install yarn if you don't have it:
-
-```powershell
-npm i -g yarn
-```
-
-Install dependencies:
-
-```powershell
-yarn
-```
-
 Build:
 
 ```powershell
-yarn build
+pnpm build
 ```
