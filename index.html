@@ -101,28 +101,23 @@
       href="https://fonts.gstatic.com"
       crossorigin
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap"
-      rel="stylesheet"
-    />
 
     <link
       rel="stylesheet"
       href="./src/style.css"
     />
-    <link
+    <!-- <link
       rel="manifest"
       href="/manifest.webmanifest"
     />
     <script
       src="./src/app.ts"
       type="module"
-      defer
-    ></script>
+    ></script> -->
   </head>
-  <body>
-    <nav>
-      <ul>
+  <body class="dark:bg-gray-800 dark:text-white">
+    <nav class="bg-gray-200 py-2 dark:bg-gray-900 dark:text-white">
+      <ul class="flex list-none space-x-4">
         <li>
           <a
             class="active"
@@ -167,205 +162,164 @@
     </nav>
 
     <header>
-      <h1>Moheshwar Amarnath Biswas</h1>
-      <h2>Web Developer and Student | Bangladesh</h2>
+      <h1 class="text-xl sm:text-2xl">Moheshwar Amarnath Biswas</h1>
+      <h2>
+        I'm a grade VI student who is passionate about developing. I'm currently
+        learning programming languages like Python to enhance my coding skills.
+        I'm a hardworking student who is determined to learn new things and take
+        on challenges. I'm excited to see where my passion for developing takes
+        me.
+      </h2>
       <img
         src="/images/photo.webp"
         alt="Photo of Moheshwar Amarnath Biswas"
         width="200"
         height="200"
+        class="rounded-full"
       />
     </header>
 
-    <section>
+    <div>
+      <h1 class="text-center text-xl sm:text-2xl">About Me</h1>
       <ul>
-            <li class="li-none">
-              <i class="bi bi-person"></i> Name: Moheshwar Amarnath Biswas
-            </li>
-            <li class="li-none">
-              <i class="bi bi-person"></i> Father's Name: Adaytta Kumar Tapu
-            </li>
-            <li class="li-none">
-              <i class="bi bi-person"></i> Mother's Name: Dipti Rani
-            </li>
-            <li class="li-none"><i class="bi bi-person"></i> Gender: Male</li>
-            <li class="li-none">
-              <i class="bi bi-calendar2-date"></i> Age: <span id="age"></span>
-            </li>
-            <li class="li-none">
-              <i class="bi bi-calendar2-date"></i> Date of Birth: 27, March,
-              2011
-            </li>
-            <li class="li-none">
-              <i class="bi bi-globe"></i> Nationality: Bangladeshi
-            </li>
-            <li class="li-none">
-              <i class="bi bi-pen"></i> School's Name: Shishu Nikaton EDAS
-              School
-            </li>
-            <li class="li-none">
-              <i class="bi bi-heart-fill"></i> Relationship Status: Single
-            </li>
-            <li class="li-none">
-              <span class="material-symbols-outlined"> temple_hindu </span>
-              Religion: Hinduism
-            </li>
-            <li class="li-none">
-              <i class="bi bi-terminal"></i> Hobbies: Programming, Working with
-              spreadsheet, Driving, Cooking
-            </li>
-          </ul>
-    </section>
+        <li><i class="bi bi-person"></i> Name: Moheshwar Amarnath Biswas</li>
+        <li><i class="bi bi-person"></i> Father's Name: Adaytta Kumar Tapu</li>
+        <li><i class="bi bi-person"></i> Mother's Name: Dipti Rani</li>
+        <li><i class="bi bi-person"></i> Gender: Male</li>
+        <li>
+          <i class="bi bi-calendar2-date"></i> Age: <span id="age"></span>
+        </li>
+        <li>
+          <i class="bi bi-calendar2-date"></i> Date of Birth: 27, March, 2011
+        </li>
+        <li><i class="bi bi-globe"></i> Nationality: Bangladeshi</li>
+        <li><i class="bi bi-pen"></i> School's Name: Will be added soon.</li>
+        <li><i class="bi bi-heart-fill"></i> Relationship Status: Single</li>
+        <li>
+          <span class="material-symbols-outlined"> temple_hindu </span>
+          Religion: Hinduism
+        </li>
+        <li>
+          <i class="bi bi-terminal"></i> Hobbies: Programming, Working with
+          spreadsheet, Driving, Cooking
+        </li>
+      </ul>
+    </div>
 
-    <section>
+    <div>
+      <h1 class="text-center text-xl sm:text-2xl">Skills</h1>
       <h5>Hard Skills:</h5>
+      <ul class="list-disc">
+        <li>Typing (Intermediate)</li>
+        <li>Web Development (Intermediate)</li>
+        <li>System Administration (Intermediate)</li>
+        <li>Programming (Beginner)</li>
+        <li>Video Editing (Intermediate)</li>
+        <li>Data Analysis (Intermediate)</li>
+        <li>Project Management (Intermediate)</li>
+      </ul>
+
+      <h5>Soft Skills:</h5>
+      <ul class="list-disc">
+        <li>Problem-solving mentality</li>
+        <li>Patience</li>
+        <li>Determination</li>
+        <li>Active listening</li>
+        <li>Curiosity</li>
+      </ul>
+
+      <h5>Software and Tools:</h5>
+      <ul>
+        <li>
+          <h6>Operating System:</h6>
           <ul>
-            <li>Typing (Intermediate)</li>
-            <li>Web Development (Intermediate)</li>
-            <li>System Administration (Intermediate)</li>
-            <li>Programming (Beginner)</li>
-            <li>Video Editing (Intermediate)</li>
-            <li>Data Analysis (Intermediate)</li>
-            <li>Project Management (Intermediate)</li>
+            <li><i class="bi bi-microsoft"></i> Microsoft Windows (Expert)</li>
+            <li><i class="bi bi-ubuntu"></i> Linux (Beginner)</li>
+            <li><i class="bi bi-apple"></i> MacOS (Beginner)</li>
           </ul>
+        </li>
 
-          <h5>Soft Skills:</h5>
+        <li>
+          <h6>Productivity Softwares:</h6>
           <ul>
-            <li>Problem-solving mentality</li>
-            <li>Patience</li>
-            <li>Determination</li>
-            <li>Active listening</li>
-            <li>Curiosity</li>
-          </ul>
-
-          <h5>Software and Tools:</h5>
-          <ul>
-            <li class="li-none">
-              <h6>Operating System:</h6>
-              <ul>
-                <li class="li-none">
-                  <i class="bi bi-microsoft"></i> Microsoft Windows (Expert)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-ubuntu"></i> Linux (Beginner)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-apple"></i> MacOS (Beginner)
-                </li>
-              </ul>
+            <li>
+              <i class="bi bi-microsoft"></i> Microsoft Word (Intermediate)
             </li>
-
-            <li class="li-none">
-              <h6>Productivity Softwares:</h6>
-              <ul>
-                <li class="li-none">
-                  <i class="bi bi-microsoft"></i> Microsoft Word (Intermediate)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-microsoft"></i> Microsoft Excel (Intermediate)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-microsoft"></i> Microsoft Powerpoint
-                  (Intermediate)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-microsoft"></i> Microsoft Access (Beginner)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-microsoft"></i> Microsoft Todo (Intermediate)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-file-pdf-fill"></i> Adobe Acrobat
-                  (Intermediate)
-                </li>
-              </ul>
+            <li>
+              <i class="bi bi-microsoft"></i> Microsoft Excel (Intermediate)
             </li>
-
-            <li class="li-none">
-              <h6>Development Tools:</h6>
-              <ul>
-                <li class="li-none">
-                  <i class="bi bi-git"></i> Git (Intermediate)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-github"></i> GitHub (Intermediate)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-terminal"></i> PowerShell (Intermediate)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-terminal"></i> bash (Intermediate)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-terminal"></i> zsh (Intermediate)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-terminal"></i> npm (Intermediate)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-terminal"></i> yarn (Intermediate)
-                </li>
-              </ul>
+            <li>
+              <i class="bi bi-microsoft"></i> Microsoft Powerpoint
+              (Intermediate)
             </li>
-
-            <li class="li-none">
-              <h6>Design Tools:</h6>
-              <ul>
-                <li class="li-none">
-                  <i class="bi bi-file-pdf-fill"></i> Adobe Photoshop
-                  (Intermediate)
-                </li>
-                <li class="li-none">
-                  <i class="bi bi-file-pdf-fill"></i> Adobe Illustrator
-                  (Intermediate)
-                </li>
-              </ul>
+            <li><i class="bi bi-microsoft"></i> Microsoft Access (Beginner)</li>
+            <li>
+              <i class="bi bi-microsoft"></i> Microsoft Todo (Intermediate)
             </li>
-
-            <li class="li-none">
-              <h6>Video Editors:</h6>
-              <ul>
-                <li class="li-none">
-                  <i class="bi bi-microsoft"></i> Microsoft Clipchamp
-                  (Intermediate)
-                </li>
-
-                <li class="li-none">
-                  <i class="bi bi-file-pdf-fill"></i> Adobe Premiere Pro
-                  (Beginner)
-                </li>
-              </ul>
+            <li>
+              <i class="bi bi-file-pdf-fill"></i> Adobe Acrobat (Intermediate)
             </li>
           </ul>
+        </li>
 
-          <h5>Programming Languages:</h5>
+        <li>
+          <h6>Development Tools:</h6>
           <ul>
-            <li class="li-none">
-              <i class="bi bi-filetype-html"></i> HTML (Intermediate)
-            </li>
-            <li class="li-none">
-              <i class="bi bi-filetype-css"></i> CSS (Intermediate)
-            </li>
-            <li class="li-none">
-              <i class="bi bi-filetype-js"></i> Javascript (Beginner)
-            </li>
-            <li class="li-none">
-              <i class="bi bi-filetype-py"></i> Python (Beginner)
-            </li>
-            <li class="li-none">C (Beginner)</li>
+            <li><i class="bi bi-git"></i> Git (Intermediate)</li>
+            <li><i class="bi bi-github"></i> GitHub (Intermediate)</li>
+            <li><i class="bi bi-terminal"></i> PowerShell (Intermediate)</li>
+            <li><i class="bi bi-terminal"></i> bash (Intermediate)</li>
+            <li><i class="bi bi-terminal"></i> zsh (Intermediate)</li>
+            <li><i class="bi bi-terminal"></i> npm (Intermediate)</li>
+            <li><i class="bi bi-terminal"></i> yarn (Intermediate)</li>
           </ul>
+        </li>
 
-          <h5>Libraries And Frameworks:</h5>
+        <li>
+          <h6>Design Tools:</h6>
           <ul>
-            <li class="li-none">
-              <i class="bi bi-bootstrap-fill"></i> Bootstrap (Intermediate)
+            <li>
+              <i class="bi bi-file-pdf-fill"></i> Adobe Photoshop (Intermediate)
+            </li>
+            <li>
+              <i class="bi bi-file-pdf-fill"></i> Adobe Illustrator
+              (Intermediate)
             </li>
           </ul>
-        </div>
-      </div>
-    </section>
+        </li>
 
-    <footer>
+        <li>
+          <h6>Video Editors:</h6>
+          <ul>
+            <li>
+              <i class="bi bi-microsoft"></i> Microsoft Clipchamp (Intermediate)
+            </li>
+
+            <li>
+              <i class="bi bi-file-pdf-fill"></i> Adobe Premiere Pro (Beginner)
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <h5>Programming Languages:</h5>
+      <ul>
+        <li><i class="bi bi-filetype-html"></i> HTML (Intermediate)</li>
+        <li><i class="bi bi-filetype-css"></i> CSS (Intermediate)</li>
+        <li><i class="bi bi-filetype-js"></i> Javascript (Beginner)</li>
+        <li><i class="bi bi-filetype-py"></i> Python (Beginner)</li>
+        <li>C (Beginner)</li>
+      </ul>
+
+      <h5>Libraries And Frameworks:</h5>
+      <ul>
+        <li><i class="bi bi-bootstrap-fill"></i> Bootstrap (Intermediate)</li>
+      </ul>
+    </div>
+
+    <footer
+      class="bg-gray-200 py-2 text-center dark:bg-gray-900 dark:text-white"
+    >
       Copyright (c) Moheshwar Amarnath Biswas. All rights reserved.
     </footer>
   </body>
