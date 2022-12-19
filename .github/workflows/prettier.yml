@@ -14,11 +14,12 @@ jobs:
       contents: read
       security-events: write
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
           ref: ${{ github.head_ref }}
 
-      - uses: actionsx/prettier@v2
-        with:
-          # prettier CLI arguments.
-          args: --check .
+      - name: Install dependencies
+        run: npm ci
+      - name: Check formatting issues.
+        run: prettier -c .
