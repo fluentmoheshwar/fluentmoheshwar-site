@@ -1,0 +1,25 @@
+name: "Tests"
+
+on:
+  push:
+    branches: ["main"]
+  schedule:
+    - cron: "50 20 * * *"
+jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+
+
+      - name: Installs dependencies
+        run: npm ci
+      - name: run tests
+        run: npm run test

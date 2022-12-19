@@ -2,6 +2,7 @@
 
 Portfolio Website of myself
 
+[![Tests](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/test.yml/badge.svg)](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/test.yml)
 [![CodeQL](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/codeql.yml/badge.svg)](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/codeql.yml)
 [![Prettier](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/prettier.yml/badge.svg)](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/prettier.yml)
 [![DevSkim](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/devskim.yml/badge.svg)](https://github.com/fluentmoheshwar/fluentmoheshwar-site/actions/workflows/devskim.yml)
