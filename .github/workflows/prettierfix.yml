@@ -50,7 +50,7 @@ jobs:
         run: pnpm install
 
       - name: runs prettier
-        run: prettier -w .
+        run: pnpm prettier -w .
 
       - run: rm ".prettierignore"
 

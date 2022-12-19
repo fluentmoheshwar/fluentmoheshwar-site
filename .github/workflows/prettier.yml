@@ -49,4 +49,4 @@ jobs:
         run: pnpm install
 
       - name: Check formatting issues.
-        run: prettier -c .
+        run: pnpm prettier -c .
