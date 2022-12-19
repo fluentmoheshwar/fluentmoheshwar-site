@@ -14,8 +14,8 @@ export default defineConfig({
         display: "standalone",
         description: "Website of Moheshwar Amarnath Biswas",
         lang: "en",
-        dir: "auto",
-        theme_color: "#29298b",
+        dir: "ltr",
+        theme_color: "#111827",
         background_color: "#202020",
         orientation: "any",
         icons: [
@@ -40,8 +40,13 @@ export default defineConfig({
         ],
         screenshots: [
           {
-            src: "./images/meta.png",
-            sizes: "1148x679",
+            src: "/images/phone.png",
+            sizes: "1170x2532",
+            type: "image/png",
+          },
+          {
+            src: "/images/meta.png",
+            sizes: "3840x2160",
             type: "image/png",
           },
         ],
