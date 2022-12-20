@@ -30,6 +30,7 @@
     "vite-plugin-pwa": "^0.14.0"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.10.2"
+    "bootstrap-icons": "^1.10.2",
+    "vite-plugin-webfont-dl": "^3.4.2"
   }
 }

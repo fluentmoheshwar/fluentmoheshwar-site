@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
+import webfontDownload from "vite-plugin-webfont-dl";
 export default defineConfig({
   publicDir: "public",
   server: { port: 3000 },
@@ -62,5 +63,6 @@ export default defineConfig({
         globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
       },
     }),
+    webfontDownload(),
   ],
 });
