@@ -1,6 +1,5 @@
 const currYear: number = new Date().getFullYear();
 const age: number = currYear - 2011;
-const ageElement = document.getElementById("age");
-ageElement.innerText = age;
+document.querySelector<HTMLSpanElement>("#age")!.innerHTML = age.toString();
 
 export {};
