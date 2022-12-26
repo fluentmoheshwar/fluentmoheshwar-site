@@ -49,3 +49,7 @@ Build:
 ```powershell
 pnpm build
 ```
+
+## License
+
+Source Code is licensed under [MIT License](https://github.com/fluentmoheshwar/fluentmoheshwar-site/blob/main/LICENSE.md). Contents on this site specially images is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
