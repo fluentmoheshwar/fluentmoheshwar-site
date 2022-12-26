@@ -11,26 +11,21 @@
     "comments": true,
     "other": "on"
   },
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": false
-  },
   "editor.snippetSuggestions": "top",
   "editor.formatOnPaste": true,
   "editor.tabSize": 2,
   "cSpell.words": [
     "Adaytta",
-    "amarn",
     "Amarnath",
     "Biswas",
     "Clipchamp",
     "Dipti",
-    "eqeqeq",
     "fluentmoheshwar",
-    "linebreak",
     "Moheshwar",
     "Photoshop",
     "tailwindcss",
-    "Tapu"
+    "Tapu",
+    "webfont"
   ],
   "files.eol": "\n",
   "files.associations": {
