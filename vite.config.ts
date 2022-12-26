@@ -41,12 +41,12 @@ export default defineConfig({
         ],
         screenshots: [
           {
-            src: "/images/phone.png",
+            src: "/phone.png",
             sizes: "1170x2532",
             type: "image/png",
           },
           {
-            src: "/images/meta.png",
+            src: "/meta.png",
             sizes: "3840x2160",
             type: "image/png",
           },
