@@ -2,14 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-li .bi::before,
-li .material-symbols-outlined {
-  font-size: 16px;
-}
-nav ul li a:hover {
-  @apply text-sky-600 drop-shadow-2xl;
+@layer components {
+  /* Icon Size */
+  li .bi::before,
+  li .material-symbols-outlined {
+    font-size: 16px;
+  }
+  /* Navbar */
+  nav ul li a:hover {
+    @apply text-sky-600 shadow-sky-100 drop-shadow-2xl;
+  }
 }
 
-.active {
-  @apply text-sky-600;
+@layer utilities {
+  .active {
+    @apply text-sky-600;
+  }
 }
