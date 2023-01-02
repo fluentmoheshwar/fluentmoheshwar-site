@@ -20,13 +20,20 @@
     "Biswas",
     "Clipchamp",
     "Dipti",
+    "EDAS",
     "fluentmoheshwar",
+    "Khordo",
+    "Kolaroa",
     "Moheshwar",
+    "Nikaton",
     "Photoshop",
+    "Satkhira",
+    "Shishu",
     "tailwindcss",
     "Tapu",
     "webfont"
   ],
+  "cSpell.ignoreWords": ["deSgjRM2CfLooFl6wNtA3S8txRsxcpDYtQqGl8WRMVo"],
   "files.eol": "\n",
   "files.associations": {
     "*.css": "tailwindcss"
