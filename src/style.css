@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+  .section-header {
+    @apply my-5 text-center text-xl underline sm:text-4xl;
+  }
   /* Icon Size */
   li .bi::before,
   li .material-symbols-outlined {
