@@ -31,6 +31,6 @@
     "vite-plugin-webfont-dl": "^3.4.2"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.10.2"
+    "bootstrap-icons": "^1.10.3"
   }
 }
